@@ -1,7 +1,7 @@
 {
-  "name": "swagger-client-generator",
+  "name": "@balise/swagger-client-generator",
   "version": "0.0.1",
-  "description": "",
+  "description": "Swagger Client Generator is a tool that enables developers to easily parse Swagger API specification files and generate code bindings that are type safe using the popular validation library Zod and the flexible HTTP client Wretch. Swagger Client Generator makes it easy to generate high-quality code that is both scalable and maintainable.",
   "main": "src/index.ts",
   "scripts": {
     "start": "nodemon --exec ts-node parser.ts --ignore serialized.ts",
@@ -17,5 +17,13 @@
     "prettier": "2.8.7",
     "wretch": "^2.5.2",
     "zod": "^3.21.4"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BaliseCode/SwaggerClientGenerator.git"
+  },
+  "bugs": {
+    "url": "https://github.com/BaliseCode/SwaggerClientGenerator/issues"
+  },
+  "homepage": "https://github.com/BaliseCode/SwaggerClientGenerator#readme"
 }
