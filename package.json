@@ -7,7 +7,7 @@
     "start": "nodemon --exec ts-node parser.ts --ignore serialized.ts",
     "test": "ts-node index.ts"
   },
-  "author": "",
+  "author": "balise",
   "license": "ISC",
   "devDependencies": {
     "@types/prettier": "^2.7.2",
