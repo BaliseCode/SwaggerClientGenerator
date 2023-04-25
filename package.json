@@ -1,6 +1,6 @@
 {
   "name": "@balise/swagger-client-generator",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Swagger Client Generator is a tool that enables developers to easily parse Swagger API specification files and generate code bindings that are type safe using the popular validation library Zod and the flexible HTTP client Wretch. Swagger Client Generator makes it easy to generate high-quality code that is both scalable and maintainable.",
   "main": "src/index.ts",
   "scripts": {

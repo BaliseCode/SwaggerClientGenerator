@@ -4,9 +4,14 @@ Swagger Client Generator is a tool that enables developers to easily parse Swagg
 
 # Generate your API client
 
+## Installation
+
+
+    npm install @balise/swagger-client-generator
+
 The following code explains how to generate code bindings from a swagger.json file.
 
-    import SwaggerGenerateClient from "";
+    import SwaggerGenerateClient from "@balise/swagger-client-generator";
 
     let Query = new SwaggerGenerateClient('inputfile.json', 'outputfile.ts');
 
